@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html
+	xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<a href="./page?language=zh_CN">简体中文</a>
+	<a href="./page?language=en_US">美国英文</a>
+	<br>
+	<h1 th:text="${msg}"></h1>
+	Locale:<li th:text="${locale}"></li>
+</body>
+</html>
